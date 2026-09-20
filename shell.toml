@@ -1,0 +1,150 @@
+# Neo Brutalism — shell surfaces.
+# Rules of the style, applied literally: everything is opaque, every edge is
+# a visible 3px rule, selection is a solid block of ink-on-color rather than
+# a polite 8% wash.
+
+[bar]
+background       = "#0E0D0B"
+background-alpha = 1.0
+text             = "#F1E7D5"
+active           = "#FA4F37"
+scale-with-font  = true
+size-horizontal  = 30
+size-vertical    = 32
+
+[hyprland]
+active-border            = "rgba(FA4F37ff) rgba(FADD45ff) 45deg"
+active-border-foreground = "rgba(F1E7D5ff) rgba(FADD45ff) 45deg"
+
+[controls]
+# Idle chrome still shows its box — brutalism does not hide structure.
+normal-color        = "#F1E7D5"
+normal-fill-alpha   = 0.0
+normal-border       = "#F1E7D5"
+normal-border-width = 2
+normal-border-alpha = 1.0
+
+# Hover: the block fills with cadmium and the text flips to ink.
+hover-cursor-color        = "#FADD45"
+hover-cursor-fill-alpha   = 0.16
+hover-cursor-border       = "#FADD45"
+hover-cursor-border-width = 2
+hover-cursor-border-alpha = 1.0
+
+focus-color        = "#FADD45"
+focus-fill-alpha   = 0.16
+focus-border       = "#FADD45"
+focus-border-width = 2
+focus-border-alpha = 1.0
+
+# Selected: a solid red slab, not a tint.
+selected-color        = "#FA4F37"
+selected-fill-alpha   = 1.0
+selected-border       = "#FA4F37"
+selected-border-width = 2
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 1.0
+selection-fill-alpha = 1.0
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+control-padding-x = 12
+control-padding-y = 8
+row-padding-x     = 14
+panel-padding     = 16
+popup-padding     = 12
+
+[font]
+base-size = 12
+# Headings get a size jump the body does not — poster hierarchy.
+heading       = 18
+display       = 28
+display-large = 34
+
+[popups]
+background       = "#0E0D0B"
+background-alpha = 1.0
+text             = "#F1E7D5"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = 3
+
+[tooltip]
+background       = "#FADD45"
+background-alpha = 1.0
+text             = "#0E0D0B"
+border           = "#0E0D0B"
+border-alpha     = 1.0
+
+[notifications]
+background       = "#0E0D0B"
+background-alpha = 1.0
+text             = "#F1E7D5"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = 3
+countdown        = "#FA4F37"
+
+[launcher]
+background                = "#0E0D0B"
+background-alpha          = 1.0
+text                      = "#F1E7D5"
+border                    = "#F1E7D5"
+border-alpha              = 1.0
+scrim                     = "#105AE1"
+scrim-alpha               = 0.55
+selected-background       = "#FA4F37"
+selected-background-alpha = 1.0
+selected-text             = "#0E0D0B"
+selected-border           = "#FA4F37"
+selected-border-alpha     = 1.0
+
+[menu]
+background                = "#0E0D0B"
+background-alpha          = 1.0
+text                      = "#F1E7D5"
+border                    = "#F1E7D5"
+border-alpha              = 1.0
+scrim                     = "#105AE1"
+scrim-alpha               = 0.55
+selected-background       = "#FA4F37"
+selected-background-alpha = 1.0
+selected-text             = "#0E0D0B"
+selected-border           = "#FA4F37"
+selected-border-alpha     = 1.0
+
+[polkit]
+background       = "#0E0D0B"
+background-alpha = 1.0
+text             = "#F1E7D5"
+text-error       = "#FA4F37"
+border           = "#FADD45"
+border-error     = "#FA4F37"
+border-alpha     = 1.0
+scrim            = "#000000"
+scrim-alpha      = 0.7
+accent           = "#FADD45"
+
+[lock]
+background       = "#0E0D0B"
+background-alpha = 1.0
+text             = "#F1E7D5"
+placeholder      = "#8A7F70"
+text-error       = "#FA4F37"
+border           = "hyprland.active-border"
+border-active    = "#FADD45"
+border-error     = "#FA4F37"
+border-alpha     = 1.0
+selection        = "#105AE1"
+selection-alpha  = 1.0
+
+[image-picker]
+scrim                   = "#000000"
+scrim-alpha             = 0.7
+text                    = "#F1E7D5"
+selected-border         = "#FA4F37"
+selected-border-alpha   = 1.0
+unselected-border       = "#F1E7D5"
+unselected-border-alpha = 0.5

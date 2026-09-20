@@ -1,0 +1,39 @@
+# Neo Brutalism — screenprint poster palette on ink.
+# Ink, paper, and three flat primaries pulled straight off the reference
+# print: electric blue, signal red, cadmium yellow. Nothing is muted, nothing
+# is blended, nothing has a gradient it did not earn.
+mode = "dark"
+
+accent    = "#FA4F37"
+selection = "#105AE1"
+muted     = "#564C44"
+
+background         = "#0E0D0B"
+dark_background    = "#080706"
+darker_background  = "#000000"
+lighter_background = "#1E1B17"
+
+foreground        = "#F1E7D5"
+dark_foreground   = "#8A7F70"
+light_foreground  = "#D4C7B6"
+bright_foreground = "#FFFBF2"
+
+# Focused window gets the sun: red into cadmium, hard 45deg.
+hyprland_active_border   = "rgba(FA4F37ff) rgba(FADD45ff) 45deg"
+hyprland_inactive_border = "rgba(2A2621ff)"
+
+red     = "#FA4F37"
+yellow  = "#FADD45"
+orange  = "#FF8A3D"
+green   = "#6FDA44"
+cyan    = "#35D0D8"
+blue    = "#4C8DFF"
+magenta = "#FF5FA8"
+brown   = "#B94D35"
+
+bright_red     = "#FF7259"
+bright_yellow  = "#FFE96B"
+bright_green   = "#8FEA68"
+bright_cyan    = "#5FE4EA"
+bright_blue    = "#7AA9FF"
+bright_magenta = "#FF85BE"
